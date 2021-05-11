@@ -1,6 +1,6 @@
 # OBJECT
 class Cat:
-    # Attribute!
+    # Attribute! This is what all cats have. (Attributes, properties or states)
     species = "mammal"
 
     # Constructor
@@ -15,10 +15,10 @@ class Cat:
 guster = Cat("Guster", 11)
 bandit = Cat("Bandit", 11)
 
-# print("%s is %d years old" % (guster.name, guster.age))
-# print("%s is %d years old" % (bandit.name, guster.age))
-# print("%s is a %s" % (guster.name, guster.species))
-# print("%s is %s's sister, they are both %s(s)" % (bandit.name, guster.name, guster.species))
+print("%s is %d years old" % (guster.name, guster.age))
+print("%s is %d years old" % (bandit.name, guster.age))
+print("%s is a %s" % (guster.name, guster.species))
+print("%s is %s's sister, they are both %s(s)" % (bandit.name, guster.name, guster.species))
 
 # METHODS
 print(guster.describe())
