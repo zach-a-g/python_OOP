@@ -32,6 +32,10 @@ class Person:
         # uniques_greeted = list(uniques)
         print("The number of unique people greeted is: %d" % (len(self.unique_greeted)))
 
+sonny = Person("Sonny", "sonny@hotmail.com", "483-485-4948")
+jordan = Person("Jordan", "jordan@aol.com", "495-586-3456")
+dee_ann = Person("Dee ann", "deeann@aim.com", "123-456-7890")
+
 # Create a Vehicle class
 class Vehicle:
     def __init__(self, make, model, year):
@@ -42,14 +46,7 @@ class Vehicle:
     def print_info(self):
         print(car.make, car.model, car.year)
 
-
-sonny = Person("Sonny", "sonny@hotmail.com", "483-485-4948")
-jordan = Person("Jordan", "jordan@aol.com", "495-586-3456")
-dee_ann = Person("Dee ann", "deeann@aim.com", "123-456-7890")
-
 car = Vehicle("Ram", "1500", "2020")
-
-
 
 car.print_info()
 print("====================")
